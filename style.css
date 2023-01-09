@@ -115,7 +115,7 @@ footer > img:hover{
 }
 .filtros > ul{
   display: flex;
-  gap: 1rem;
+  gap: 0.7rem;
   max-width: 1040px;
   margin: 10px auto;
   color: var(--ligth-h1-color);
