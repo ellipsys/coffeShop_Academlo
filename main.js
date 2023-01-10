@@ -171,7 +171,7 @@ pintarTarjetas(tarjetas)
 
 /* CREAR UN NUEVO ARREGLO VACIO PARA AGREGAR LAS TARJETAS A LA COLECCION */
 let coleccion = JSON.stringify(localStorage.getItem("coleccion")) || []
-
+console.log(coleccion);
 /* BUCAR EL ELEMENTO QUE CONTENDRA LAS TARJETAS DE LA COLECCION */
 
 const coleccionContenedor = document.getElementById('coleccionContenedor')
