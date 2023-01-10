@@ -170,7 +170,7 @@ function pintarTarjetas (tarjeta) {
 pintarTarjetas(tarjetas)
 
 /* CREAR UN NUEVO ARREGLO VACIO PARA AGREGAR LAS TARJETAS A LA COLECCION */
-let coleccion = JSON.stringify(localStorage.getItem("coleccion")) || []
+let coleccion = JSON.parse(localStorage.getItem("coleccion")) || []
 console.log(coleccion);
 /* BUCAR EL ELEMENTO QUE CONTENDRA LAS TARJETAS DE LA COLECCION */
 
